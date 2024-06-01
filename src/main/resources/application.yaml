@@ -1,0 +1,21 @@
+server:
+  port: 8082
+ 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+      
+      
+external:
+  coinmarketcap:
+    name: coinmarketcap
+    url: https://pro-api.coinmarketcap.com/v1
+    key: 27ab17d1-215f-49e5-9ca4-afd48810c149
+    
