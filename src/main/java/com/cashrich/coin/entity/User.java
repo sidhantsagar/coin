@@ -1,4 +1,5 @@
-package com.cashrich.coin.dao;
+package com.cashrich.coin.entity;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +10,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CoinMarketCap {
-	private Status statusObject;
-	private Data dataObject;
+public class User {
+
+	private String username;
+
+	private String password;
+
 }

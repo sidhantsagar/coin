@@ -19,3 +19,7 @@ external:
     url: https://pro-api.coinmarketcap.com/v1
     key: 27ab17d1-215f-49e5-9ca4-afd48810c149
     
+  user:
+    name: user
+    url: http://localhost:8083/cashrich/coin/v1
+    
